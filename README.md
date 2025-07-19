@@ -1,7 +1,5 @@
 # Stone-Paper-Scissors-Game
 
-Sure! Here's a professional and well-structured **README** for your **Stone Paper Scissors** game project built using HTML, CSS, and JavaScript:
-
 
 # 🪨 Stone Paper Scissors Game
 
