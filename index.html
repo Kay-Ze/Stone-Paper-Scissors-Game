@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stone-Paper-Scissors Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="head">Rock Paper Scisor Game</h1>
+      <button id="reset">New Game</button>
+    </header>
+
+    <div class="container" id="outer">
+      <div class="boxs" id="inner">
+        Player
+        <img src="rock.png" alt="Rock" class="images hide" id="p_rock" />
+        <img src="paper.png" alt="Paper" class="images hide" id="p_paper" />
+        <img src="scisor.png" alt="Scisor" class="images hide" id="p_scisor" />
+      </div>
+      <div id="result">
+        <button class="answer" id="you">0</button>
+        <h1 id="gap">-</h1>
+        <button class="answer" id="com">0</button>
+      </div>
+      <div class="boxs" id="inner">
+        Computer
+        <img src="rock.png" alt="Rock" class="images hide" id="com_rock" />
+        <img src="paper.png" alt="Paper" class="images hide" id="com_paper" />
+        <img
+          src="scisor.png"
+          alt="Scisor"
+          class="images hide"
+          id="com_scisor"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="True_ans">--Result--</div>
+    </div>
+
+    <h2 id="comment">Pick Your Choice</h2>
+    <div class="container" id="choices">
+      <button class="choice" id="btn_1">
+        <img src="rock.png" alt="Rock" class="img" id="rock" />
+      </button>
+      <button class="choice" id="btn_2">
+        <img src="paper.png" alt="Paper" class="img" id="paper" />
+      </button>
+      <button class="choice" id="btn_3">
+        <img src="scisor.png" alt="Scisor" class="img" id="scisor" />
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
