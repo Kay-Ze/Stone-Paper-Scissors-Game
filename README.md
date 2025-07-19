@@ -7,7 +7,7 @@ A simple, interactive **Stone-Paper-Scissors** (also known as **Rock-Paper-Sciss
 
  🎮 Live Demo
 
-> [Click here to play the game](#https://stone-paper-scissors-game-tan.vercel.app/)
+> [Click here to play the game](https://stone-paper-scissors-game-tan.vercel.app/)
 
 
 📌 Features
